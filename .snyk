@@ -1,0 +1,38 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - testwebworker > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-04T06:15:05.121Z'
+    - lodash:
+        patched: '2019-07-04T06:15:05.121Z'
+    - testwebworker > @babel/core > lodash:
+        patched: '2019-07-04T06:15:05.121Z'
+    - testwebworker > html-webpack-plugin > lodash:
+        patched: '2019-07-04T06:15:05.121Z'
+    - testwebworker > babel-eslint > @babel/types > lodash:
+        patched: '2019-07-04T06:15:05.121Z'
+    - testwebworker > @babel/preset-env > @babel/types > lodash:
+        patched: '2019-07-04T06:15:05.121Z'
+    - testwebworker > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2019-07-04T06:15:05.121Z'
+    - testwebworker > @babel/core > @babel/helpers > @babel/types > lodash:
+        patched: '2019-07-04T06:15:05.121Z'
+    - vue-echarts > lodash:
+        patched: '2019-07-04T06:15:05.121Z'
+    - testwebworker > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-04T06:15:05.121Z'
+    - testwebworker > babel-eslint > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-04T06:15:05.121Z'
+    - testwebworker > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-04T06:15:05.121Z'
+    - testwebworker > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-04T06:15:05.121Z'
+    - testwebworker > @babel/preset-env > @babel/plugin-transform-object-super > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-04T06:15:05.121Z'
+    - testwebworker > @babel/preset-es2015 > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-04T06:15:05.121Z'
+    - testwebworker > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-04T06:15:05.121Z'
