@@ -75,7 +75,7 @@
         "ethereumjs-wallet": "^0.6.2",
         "identicon.js": "^2.3.3",
         "jsonrpc-lite": "^2.0.2",
-        "lodash": "^4.17.11",
+        "lodash": "^4.17.17",
         "protobufjs": "^6.8.8",
         "qrcode.es": "^1.0.0",
         "qs": "^6.5.2",
