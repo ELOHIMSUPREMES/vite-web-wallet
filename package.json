@@ -76,7 +76,7 @@
         "identicon.js": "^2.3.3",
         "jsonrpc-lite": "^2.0.2",
         "lodash": "^4.17.11",
-        "protobufjs": "^6.8.8",
+        "protobufjs": "^6.11.3",
         "qrcode.es": "^1.0.0",
         "qs": "^6.5.2",
         "testwebworker": "git+https://github.com/vitelabs/cryptojsAccelerator.git",
