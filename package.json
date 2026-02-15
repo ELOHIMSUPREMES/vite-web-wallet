@@ -64,7 +64,7 @@
     "dependencies": {
         "@vite/vitejs": "~2.0.0",
         "@vite/vitejs-ws": "~2.0.0",
-        "axios": "^0.18.0",
+        "axios": "^1.13.5",
         "bignumber.js": "^7.2.1",
         "bip39": "^2.5.0",
         "buffer": "^5.2.1",
@@ -78,12 +78,12 @@
         "lodash": "^4.17.11",
         "protobufjs": "^6.8.8",
         "qrcode.es": "^1.0.0",
-        "qs": "^6.5.2",
+        "qs": "^6.14.2",
         "testwebworker": "git+https://github.com/vitelabs/cryptojsAccelerator.git",
         "uglifyjs-webpack-plugin": "^2.1.2",
         "vue-echarts": "^4.0.1",
         "vue-flatpickr-component": "^8.1.1",
         "vuex": "^3.0.1",
-        "web3": "1.0.0-beta.33"
+        "web3": "4.0.1"
     }
 }
